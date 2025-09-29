@@ -1,0 +1,47 @@
+.card {
+  max-width: 350px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.card__image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.card__title {
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+.card__title:hover {
+  color: #f4b400; 
+}
+
+.card__author {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.card__author-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
